@@ -15,7 +15,7 @@ from reportlab.lib.units import inch
 # --------------------------
 
 # Paths (adjust if necessary)
-FFMPEG_PATH = r"C:\ffmpeg\bin\ffmpeg.exe"
+FFMPEG_PATH = "ffmpeg"
 VIDEO_PATH = "test_video2.mp4"
 AUDIO_PATH = "extracted_audio.wav"
 TRANSCRIPT_FILE = "transcription.txt"
