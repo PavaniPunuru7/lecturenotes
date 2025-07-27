@@ -1,0 +1,37 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+venv310/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Video & media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Uploaded or generated files
+uploaded_video.mp4
+extracted_audio.wav
+transcription.txt
+summary.pdf
+screenshots/
+
+# IDE settings (optional)
+.vscode/
+.idea/
+
+# Streamlit log files
+.streamlit/
+
+# ReportLab temp files
+*.log
