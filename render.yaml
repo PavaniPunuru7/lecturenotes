@@ -6,7 +6,7 @@ services:
       apt-get update && \
       apt-get install -y ffmpeg tesseract-ocr && \
       pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port=10000 --server.enableCORS=false
+    startCommand: streamlit run app.py --server.port=$PORT --server.enableCORS=false
     envVars:
       - key: PYTHONUNBUFFERED
         value: "true"
