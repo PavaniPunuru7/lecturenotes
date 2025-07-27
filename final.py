@@ -192,7 +192,7 @@ def generate_pdf_summary(timeline, output_file):
             y = height - margin
 
         if entry["type"] == "transcript":
-            wrapped_text = re.findall('.{1,100}(?:\s+|$)', entry["content"])
+            wrapped_text = re.findall(r'.{1,100}(?:\s+|$)', entry["content"])
             line = ''
             for word in wrapped_text:
                 if c.stringWidth(line + word.strip(), "Helvetica", text_font_size) < (width - 2 * margin):
